@@ -8,7 +8,7 @@ import os
 from pyltp import Segmentor, Postagger, Parser, NamedEntityRecognizer, SementicRoleLabeller
 class LtpParser:
     def __init__(self):
-        LTP_DIR = "D:/CODES/pycharm/SubjectKG/SubjectKG/ltp_data_v3.4.0"
+        LTP_DIR = "D:/CODES/pycharm/SubjectKG_AppendModels/ltp_data_v3.4.0"
         self.segmentor = Segmentor()
         self.segmentor.load(os.path.join(LTP_DIR, "cws.model"))
 
